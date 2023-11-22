@@ -1,0 +1,35 @@
+.footerDataDisplay {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+.footerListContainer {
+  display: flex;
+  gap: 15rem;
+  padding: 1rem 7rem;
+}
+.subItemDisplay {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  cursor: pointer;
+
+  :hover {
+    color: purple;
+  }
+}
+
+.title {
+  color: red;
+  font-size: 1.3rem;
+}
+.backToTop {
+    // padding-left: 80rem;
+    // float:right;
+    // background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,23 @@
+.fullWidthNavBar {
+  width: 100%;
+  background-color: rgb(104, 99, 99);
+  display: flex;
+  gap: 1rem;
+  color: white;
+  padding: 1rem;
+  justify-content: center;
+}
+
+.navBarList {
+  display: flex;
+  color: white;
+  padding: 1rem;
+  justify-content: center;
+}
+.navTitle {
+  cursor: pointer;
+  :hover {
+    color: red;
+    background-color: red;
+  }
+}

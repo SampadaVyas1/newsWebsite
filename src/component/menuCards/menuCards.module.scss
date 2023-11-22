@@ -1,0 +1,14 @@
+.menuCardList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+.menuCardContainer {
+  padding: 1rem;
+  background-color: rgb(104, 99, 99);
+  color: white;
+}

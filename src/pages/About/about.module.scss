@@ -1,0 +1,12 @@
+.newsCardsDetails {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  flex-direction: column;
+  padding: 0.9rem;
+  //   background-color: rgb(2, 2, 2);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("https://videohive.img.customer.envatousercontent.com/bcae5895-5bd3-4560-b794-01cd41d9e2a1/video_preview/video_preview_0000.jpg?auto=compress%2Cformat&fit=crop&crop=top&max-h=8000&max-w=590&s=2caee71996450cedd2a229127150d47f");
+}
