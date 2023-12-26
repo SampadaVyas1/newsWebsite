@@ -11,13 +11,13 @@ function App() {
     <div style={{ overflowX: "hidden" }}>
       erre
       <Home />
-      {/* <Routes>
+      <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/newsDetails/:news" element={<NewsDetails />} />
         <Route path="/about/:id" element={<About />} />
         <Route path="/readMore" element={<ReadMore />} />
         <Route path="/trello" element={<Trello />} />
-      </Routes> */}
+      </Routes>
     </div>
   );
 }

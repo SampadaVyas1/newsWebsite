@@ -11,7 +11,6 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
-    {/* <HashRouter> */}
     <Auth0Provider
       domain="dev-wy8yfp8mxocgn1yc.us.auth0.com"
       clientId="158FTWHyXzpbAzO06BVrHHuUXJvUCALR"
@@ -23,7 +22,6 @@ root.render(
         <App />
       </BrowserRouter>
     </Auth0Provider>
-    {/* </HashRouter> */}
   </React.StrictMode>
 );
 
