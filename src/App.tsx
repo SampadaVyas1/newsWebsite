@@ -9,8 +9,6 @@ import Trello from "./pages/trello";
 function App() {
   return (
     <div style={{ overflowX: "hidden" }}>
-      erre
-      <Home />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/newsDetails/:news" element={<NewsDetails />} />
