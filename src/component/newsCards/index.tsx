@@ -5,7 +5,7 @@ const NewsCards = (props: any) => {
   const navigate = useNavigate();
 
   const handlOnclickOnCards = () => {
-    navigate("/newsDetails/1");
+    navigate("/newsDetails/:news");
   };
   return (
     <div className={classes.newsCardContainer}>
