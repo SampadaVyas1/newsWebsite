@@ -9,13 +9,14 @@ import Trello from "./pages/trello";
 function App() {
   return (
     <div style={{ overflowX: "hidden" }}>
-      <Routes>
-        <Route path="/" element={<Home />} />
+      {/* <Routes> */}
+        {/* <Route path="/" element={<Home />} />
         <Route path="/newsDetails/:news" element={<NewsDetails />} />
         <Route path="/about/:id" element={<About />} />
         <Route path="/readMore" element={<ReadMore />} />
-        <Route path="/trello" element={<Trello />} />
-      </Routes>
+        <Route path="/trello" element={<Trello />} /> */}
+      {/* </Routes> */}
+      hrllo
     </div>
   );
 }
