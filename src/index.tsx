@@ -18,9 +18,11 @@ root.render(
         redirect_uri: window.location.origin,
       }}
     >
-      <BrowserRouter>
+      {/* <BrowserRouter> */}
+      <HashRouter>
         <App />
-      </BrowserRouter>
+      </HashRouter>
+      {/* </BrowserRouter> */}
     </Auth0Provider>
   </React.StrictMode>
 );
